@@ -1,9 +1,19 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const ContainerCombinados = styled.div`
     background-color: black;
     opacity: 0.9;
 
+    button{
+        padding: 0.5em;
+        font-size: 2em;
+        display: flex;
+        background-color: transparent;
+        color: white;
+        border: none;
+        margin-right: 80vw;
+        margin-bottom: 0px;
+    }
     ul{
         list-style: none;
     }
@@ -24,7 +34,7 @@ export const Container = styled.div`
         text-transform: uppercase;
         text-align: center;
         color: #3c8bcc;
-        padding: auto;
+        padding-top: 25px;
     }
 
     h3, p{
@@ -32,16 +42,5 @@ export const Container = styled.div`
         text-align: center;
         color: white;
         padding: 1em;
-    }
-    
-    button{
-        padding: 0.5em;
-        font-size: 2em;
-        display: flex;
-        background-color: transparent;
-        color: white;
-        border: none;
-        margin-left: 80vw;
-        margin-bottom: 0px;
     }
 `;

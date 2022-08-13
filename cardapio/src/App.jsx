@@ -1,12 +1,12 @@
 import React from "react";
-import { Lanches } from "./lanches/Lanches";
+import { Router } from "./router/Router";
 import { GlobalStyle } from "./StyledGlobal";
 
 function App() {
   return (
     <div>
       <GlobalStyle/>
-      <Lanches/>
+      <Router/>
     </div>
   );
 }

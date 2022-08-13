@@ -1,130 +1,140 @@
 import React from "react";
 import { Header } from "../components/header/Header";
-import { Container } from "./Styled";
+import { Container} from "./Styled";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import { goToCombinados } from "../router/Coordinator";
+import { useNavigate } from "react-router-dom";
+
+
+
 
 export const Lanches = () => {
+    const navigate = useNavigate()
 
     return (
         <Container>
+            <button onClick={() => goToCombinados(navigate)}><ArrowForwardIosIcon/></button>
             <Header />
+            <br/>
             <section>
                 <h1>Lanches</h1>
                 <ul>
                     <li>
+                        <br/>
                         <div>
-                            <h3>X-Burguer</h3>
+                            <h3>X-Burguer<span>R$12,00</span></h3>
                             <p>Hambúrguer e mussarela.</p>
-                            <strong>R$12,00</strong>
                         </div>
                     </li>
+                    <hr/>
                     <li>
                         <div>
-                            <h3>X-Salada</h3>
+                            <h3>X-Salada<span>R$13,00</span></h3>
                             <p>Hambúrguer, presunto, mussarela, alface e tomate.</p>
-                            <strong>R$13,00</strong>
                         </div>
                     </li>
                     <li>
+                        <hr/>
                         <div>
-                            <h3>X-Salada Egg</h3>
+                            <h3>X-Salada Egg<span>R$14,00</span></h3>
                             <p>Hambúrguer, presunto, mussarela, alface, tomate e ovo.</p>
-                            <strong>R$14,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>X-Salada Bacon</h3>
+                            <h3>X-Salada Bacon<span>R$15,00</span></h3>
                             <p>Hambúrguer, presunto, mussarela, alface, tomate e bacon.</p>
-                            <strong>R$15,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>X-Bacon</h3>
+                            <h3>X-Bacon<span>R$14,00</span></h3>
                             <p>Hambúrguer, presunto, mussarela e bacon.</p>
-                            <strong>R$14,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>X-Tudo</h3>
+                            <h3>X-Tudo<span>R$16,00</span></h3>
                             <p>Hambúrguer, presunto, mussarela, bacon, alface, tomate e ovo.</p>
-                            <strong>R$16,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>X-Tudo Duplo</h3>
+                            <h3>X-Tudo Duplo<span>R$21,00</span></h3>
                             <p>2 Hambúrgueres, mussarela, presunto, bacon, alface, tomate e 2 ovos.</p>
-                            <strong>R$21,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>X-Burguer Kids</h3>
+                            <h3>X-Burguer Kids<span>R$23,50</span></h3>
                             <p>Hambúrguer, mussarela, batata frita(porção individual) e refrigerante lata</p>
-                            <strong>R$23,50</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>X-Tudo Triplo</h3>
+                            <h3>X-Tudo Triplo<span>R$27,50</span></h3>
                             <p>3 Hambúguer ,presunto, mussarela, bacon, alface, tomate, 3 ovos, catupiry ou cheddar.</p>
-                            <strong>R$27,50</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>Filé Mignon</h3>
+                            <h3>Filé Mignon<span>R$27,00</span></h3>
                             <p>Filé mignon, presunto e mussarela</p>
-                            <strong>R$27,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>Filé Mignon Salada</h3>
+                            <h3>Filé Mignon Salada<span>R$28,00</span></h3>
                             <p>Filé mignon, presunto, mussarela, alface e tomate.</p>
-                            <strong>R$28,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>Filé Frango</h3>
+                            <h3>Filé Frango<span>R$15,00</span></h3>
                             <p>Filé de frango, presunto, mussarela e bacon.</p>
-                            <strong>R$15,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>Filé de Frango Salada</h3>
+                            <h3>Filé de Frango Salada<span>R$13,00</span></h3>
                             <p>Filé de frango, presunto, mussarela, alface e tomate.</p>
-                            <strong>R$13,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>Filé de Frango Tudo</h3>
+                            <h3>Filé de Frango Tudo<span>R$15,50</span></h3>
                             <p>Filé de frango, presunto, mussarela, alface, tomate, ovo e bacon.</p>
-                            <strong>R$15,50</strong>
+                            <hr/>
                         </div>
                     </li>
                 </ul>
             </section>
             <section>
                 <h1>Hot Dog</h1>
+                <br/>
                 <ul>
                     <li>
                         <div>
-                            <h3>Dog Simples</h3>
+                            <h3>Dog Simples<span>R$09,00</span></h3>
                             <p>Maionese, ketchup, salsicha e batata palha.</p>
-                            <strong>R$09,00</strong>
+                            <hr/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h3>Dog Especial</h3>
+                            <h3>Dog Especial<span>R$10,00</span></h3>
                             <p>Maionese, ketchup, salsicha, bacon e batata palha.</p>
-                            <strong>R$10,00</strong>
                         </div>
                     </li>
                 </ul>

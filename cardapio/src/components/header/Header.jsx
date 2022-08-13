@@ -1,7 +1,9 @@
 import React from "react";
 import { ContainerHeader } from "./Styled";
 
+
 export const Header = () => {
+    
     return (
         <ContainerHeader>
             <img src="../akazzus.jpg" />

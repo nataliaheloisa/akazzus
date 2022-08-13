@@ -5,7 +5,9 @@ export const ContainerHeader = styled.header`
     text-align: center;
 
     h4{
+        text-transform: uppercase;
         color: white;
+        font-size: 14px;
     }
 
     img{
