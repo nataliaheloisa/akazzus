@@ -4,16 +4,6 @@ export const ContainerCombinados = styled.div`
     background-color: black;
     opacity: 0.9;
 
-    button{
-        padding: 0.5em;
-        font-size: 2em;
-        display: flex;
-        background-color: transparent;
-        color: white;
-        border: none;
-        margin-right: 80vw;
-        margin-bottom: 0px;
-    }
     ul{
         list-style: none;
     }
@@ -25,6 +15,7 @@ export const ContainerCombinados = styled.div`
         max-width: 50vw;
     }
     h3{
+        max-width: 80vw;
         text-transform: uppercase;
         display: flex;
         justify-content: space-evenly;
@@ -43,4 +34,19 @@ export const ContainerCombinados = styled.div`
         color: white;
         padding: 1em;
     }
+`;
+
+export const Buttons = styled.div`
+        padding: 10px 15px;
+        font-size: 2em;
+        display: flex;
+        justify-content: space-between;
+        
+        button{
+            background-color: transparent;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
 `;

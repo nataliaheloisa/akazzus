@@ -6,8 +6,7 @@ export const TelaInicial = () => {
     const navigate = useNavigate();
     return (
           <ContainerInicial>
-            <h1>Akazzus</h1>
-            <h1>Lanchonete</h1>
+            <img src="../akazzus.jpg" alt="" />
             {setTimeout(() => {
               goToLanches(navigate)
             }, 1500)}
