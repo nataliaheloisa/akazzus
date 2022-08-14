@@ -14,7 +14,6 @@ Fiz o site para mobile por tanto, pode ser que ele "quebre" no desktop.
 
 ##
 
-
 ![WhatsApp Image 2022-08-14 at 2 39 25 AM (4)](https://user-images.githubusercontent.com/97248742/184524102-ccc66d84-1fa5-471a-95b0-ad3f73de5ded.jpeg)
 ![WhatsApp Image 2022-08-14 at 2 39 25 AM (1)](https://user-images.githubusercontent.com/97248742/184524108-6d3c3dbd-c804-4ed5-bddc-14f95f66b538.jpeg)
 ![WhatsApp Image 2022-08-14 at 2 23 49 AM](https://user-images.githubusercontent.com/97248742/184524147-d5a9ab96-29c1-4372-a9d9-ebb0c43ca42d.jpeg)
