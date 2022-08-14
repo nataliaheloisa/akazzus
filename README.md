@@ -10,7 +10,7 @@ Fiz o site para mobile por tanto, pode ser que ele "quebre" no desktop.
 - Styled-omponents
 - Material-UI
 
-## <a href="http://legal-corn.surge.sh/lanches"> Visualizar cardápio </a> :hotdog: :fries:
+## <a href="http://legal-corn.surge.sh/"> Visualizar cardápio </a> :hotdog: :fries:
 
 ##
 
